@@ -1,0 +1,20 @@
+name: st_common
+description: Superticket
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  meta: ^1.2.4
+
+  equatable: ^1.2.5
+
+  # Date/Number Formatting and Parsing. Too Plurals
+  intl: ^0.16.1
+
+  # Consume HTTP resources
+  http: ^0.12.2
+
+  # Used for BloC pattern
+  bloc: ^6.1.0

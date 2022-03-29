@@ -1,0 +1,51 @@
+name: st_access_control
+description: Superticket control de acceso
+version: 1.0.1+2
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  st_common:
+    path: ../st_common
+
+  #shared preferences secure
+  flutter_secure_storage: ^3.3.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  #DATA
+  equatable: ^1.2.5
+  http: ^0.12.2
+
+  #UI
+  flutter_svg: ^0.19.1
+  extended_image: ^1.3.0
+  qr_code_scanner: 0.3.5
+  fluttertoast: 7.1.8
+
+  #BLOC
+  flutter_bloc: ^6.1.1
+
+  #CHANGE NAME
+  change_app_package_name: 0.1.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/svg/lg_abbr.svg
+    - assets/images/bg_login.png
+
+  fonts:
+    - family: StAccessControl
+      fonts:
+        - asset: assets/icons/StAccessControl.ttf
